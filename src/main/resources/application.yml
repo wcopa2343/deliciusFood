@@ -1,0 +1,11 @@
+spring:
+  application:
+    name: food
+  datasource:
+    url: jdbc:postgresql://localhost:5432/delicious-food-db
+    username: postgres
+    password: admin
+  jpa:
+    hibernate:
+      ddl-auto: update
+
